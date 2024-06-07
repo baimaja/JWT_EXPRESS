@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getTodo, addTodo, todoById, updateTodoById, deleteTodoById } = require('../Controllers/TodoController')
+const { getTodo, addTodo, todoById, updateTodoById, deleteTodoById } = require('../Controllers/TodoController');
 
 const verifyToken = require('../middleware/VerifyToken');
 
